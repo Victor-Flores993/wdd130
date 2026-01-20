@@ -21,11 +21,12 @@ main img {
     box-shadow: 0 0 30px black;
 }
 p {
-    padding: 10px;
+    padding:0px;
 }
 aside{
     background-color: #5900ff;
     border: 5px solid #00a6ff;
+    padding: 10px;
     margin: 10px;
     width: 300px;
     color: #ffd700
@@ -36,6 +37,6 @@ aside img{
 }
 footer{
     border-top: 3px dotted darkblue;
-    margin: 10px;
+    margin-top: 10px;
     text-align: center;
 }
