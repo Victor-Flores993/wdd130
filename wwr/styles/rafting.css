@@ -34,6 +34,19 @@ nav, p, section, article{
     margin: 16px;
     padding: 10px;
 }
+nav {
+    
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+nav a{
+    padding: .5rem;
+    text-decoration: none;
+    color: #000;
+}
 nav img{
     width: 100px;
     height: auto;
@@ -61,8 +74,9 @@ h1{
 }
 .hero article{
     position: absolute;
-    bottom: 20px;
-    width: 750px;
+    bottom: 100px;
+    left:40px;
+    width: 700px;
     height: auto;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
@@ -74,13 +88,59 @@ h1{
     width: 150px;
     height: auto;
 }
+.history{
+    background-color: var(--accent2-color);
+    
+    display: flex;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items:center;
+}
+.history img{
+    width: 250px;
+}
 h2{
     background-color: var(--accent1-color);
     padding: 12px;
     width: 100%;
     text-align: center;
 }
+
+figure{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1 3;
+}
+figure img{
+    width: 100px;
+    height: auto;
+    order:0;
+    border: solid 1px black;
+    margin: 5px;
+}
+figcaption{
+    order:1;
+    border: solid 1px black;
+    align-items:center;
+    color: var(--primary-color);
+    background-color: #FDCA40;
+}
 .socialmedia img{
     width: 50px;
     height: auto;
+    
+    
+}
+footer p{
+    display: flex;
+}
+.sites {
+    background-color: var(--accent2-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns:1fr 1fr 1fr
 }
